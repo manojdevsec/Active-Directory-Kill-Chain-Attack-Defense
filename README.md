@@ -75,4 +75,58 @@ corp.local(manoj.com)
 │
 └── OU=Security Groups
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Attack Environment
+
+
+                    KALI
+                     │
+                     ▼
+             Reconnaissance
+                     │
+                     ▼
+          Network Enumeration
+                     │
+                     ▼
+       Active Directory Enumeration
+                     │
+                     ▼
+            Attack Path Discovery
+                     │
+                     ▼
+          Credential Attacks
+                     │
+                     ▼
+           Lateral Movement
+                     │
+                     ▼
+          Privilege Escalation
+                     │
+                     ▼
+          Domain Compromise
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Attack Path Discovery
+
+
+
+Compromised User
+       │
+       ▼
+Group Membership
+       │
+       ▼
+Local Administrator
+       │
+       ▼
+Server Access
+       │
+       ▼
+Privileged Group
+       │
+       ▼
+Domain Admin
+
+
               
